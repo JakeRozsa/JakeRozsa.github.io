@@ -1,0 +1,114 @@
+nav {
+ z-index: 2;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 7vh;
+background-color: #f0eec8;
+color: #0c084c;
+}
+h2 {
+  margin: .8vh 0px 0px 2vw;
+}
+#about-me {
+  position: sticky;
+  background-image: url(/assets/dev-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+    display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.about-me {
+  text-align: center;
+}
+#skills {
+  background-color: #820500;
+}
+.skills {
+  margin-top: 2vh;
+  height: 13vh;
+  display: flex;
+  justify-content: end;
+}
+.stitle {
+  max-height: 4vh;
+  display: flex;
+  justify-content: center;
+}
+.skillimg {
+  max-height: 10vh;
+  max-width: 8vw;
+}
+.projectbtn {
+  background-color: #820500;
+  color: white;
+  box-shadow: 3px 3px 5px #000000;
+}
+#portfolio {
+  background-color: #2c577a;
+  padding-top: 10px;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+.port-desctop {
+  margin-top: 15px;
+  padding-top: 10px;
+  background-color: rgba(56, 56, 56, 0.575);
+  height: 180px;
+  border-radius: 0px 10px 10px 0px;
+}
+.leftt {
+  border-radius: 0px 10px 10px 0px;
+}
+.rightt {
+  border-radius: 10px 0px 0px 10px;
+}
+.port-desc {
+  margin-top: 15px;
+  padding-top: 10px;
+  background-color: rgba(56, 56, 56, 0.575);
+  height: 180px;
+}
+.folio {
+  margin-top: -50px;
+}
+.pimg {
+  width: 45vw;
+  height: 45vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000000;
+
+}
+footer {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 10vh;
+background-color: #f0eec8;
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 1vh 0px 0px 0px;
+}
+.tags {
+  color: #0c084c;
+}
+.tags:hover {
+  text-shadow: 0px 0px 5px black;
+}
+.tag {
+  margin: 1.5vh 0px 0px 0px;
+    display: flex;
+  justify-content: space-around;
+}

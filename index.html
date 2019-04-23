@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="JR-Favicon.png" type='image/x-icon' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <title>Document</title>
+</head>
+
+<body class="container-fluid">
+  <nav class="row">
+    <div class="col-8">
+      <h2>JAKE ROZSA</h2>
+    </div>
+    <div class="col-4 tag">
+      <a href="#about-me" class="tags">About Me</a>
+      <a href="#skills" class="tags">Skills</a>
+      <a href="#portfolio" class="tags">Portfolio</a>
+      <a href="#contact" class="tags">Contact me</a>
+    </div>
+  </nav>
+  <aboutme class="row" id="about-me">
+    <div class="col-3 about-me">
+      <h2>Jake Rozsa</h2>
+      <h5>Full Stack Software Developer</h5>
+      <button class="btn projectbtn" href="#portfolio">Projects</button>
+    </div>
+    <div class="col-3 offset-6">
+      <h3 class="text-center">About Me</h3>
+      <p class="text-center">
+        I am a software developer that recently graduated from Boise Code Works. I have a deep passion for all things
+        computers. Its so fun for me to be able to encounter and solve bugs i run into because it helps me larn from my
+        mistakes to further my knowledge.
+      </p>
+    </div>
+  </aboutme>
+  <div class="row" id="skills">
+    <div class="col-12 stitle mt-1">
+      <h3>Skills</h3>
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/js.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/html5.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/css.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/dotnet.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/mongodb.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/mysql.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/nodejs.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/scrum.png" alt="">
+    </div>
+    <div class="col skills">
+      <img class="skillimg" src="/assets/vuejs.png" alt="">
+    </div>
+  </div>
+  <div class="row" id="portfolio">
+    <div class="col-6 port-desctop text-center">
+      <h3>Keepr</h3>
+      <p>Anyone that comes to this website can view keeps(pins), but are limited to what they can do on the site. Once
+        registered, you can make vaults(boards) where you can add keeps to that vault. You can also create keeps which
+        can be
+        private or public. Similar to Pinterest. Front-end is vue.js and back-end is C#.</p>
+    </div>
+    <div class="col-6 portfolio foliotop">
+      <img onclick="location.href='https://jakerozsa.github.io/keepr/';" class="pimg" src="/assets/keepr.png" alt="">
+    </div>
+    <div class="col-6 portfolio folio">
+      <img onclick="location.href='';" class="pimg" src="/assets/arf.png" alt="">
+    </div>
+    <div class="col-6 port-desc rightt text-center">
+      <h3>Arf</h3>
+      <p>This is a CRM for a pet day-care. This tool is designed for employees to track dog check-ins/outs and daily
+        activity.
+        This allows users to auto create an invoice that assists with timely billing processes.
+      </p>
+    </div>
+    <div class="col-6 port-desc leftt text-center">
+      <h3>Inspire</h3>
+      <p>
+        Inspire is an app that would be a default screen upon opening a new browser. It includes, weather, time, a to-do
+        list, and a fun quote of the day.
+      </p>
+    </div>
+    <div class="col-6 portfolio folio">
+      <img target="_blank" onclick="window.location.href='https://jakerozsa.github.io/inspire/';" class="pimg"
+        src="/assets/inspire.png" alt="">
+    </div>
+    <div class="col-6 portfolio folio">
+      <img onclick="location.href='';" class="pimg" src="/assets/kanbanana.png" alt="">
+    </div>
+    <div class="col-6 port-desc rightt text-center">
+      <h3>KanBanana</h3>
+      <p>This is a mock-up of a Trello site where a user can plan projects for themselves or their teams. A user can
+        login and
+        create boards. Boards can have lists added to them that can be commented on. Front-end is vue.js and back-end is
+        node.js.</p>
+    </div>
+  </div>
+  <footer class="row" id="contact">
+    <div class="col-4 footer">
+      <h5 class="text-center">
+        <i class="fas fa-phone"></i>
+        <br>
+        208-985-0095
+      </h5>
+    </div>
+    <div class="col-4 footer">
+      <h5 class="text-center">
+        <i class="fas fa-envelope"></i>
+        <br>
+        jakebrozsa@gmail.com
+      </h5>
+    </div>
+    <div class="col-4 footer">
+      <h5 class="text-center">
+        <i class="fas fa-file"></i>
+        <br>
+        Resume
+      </h5>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

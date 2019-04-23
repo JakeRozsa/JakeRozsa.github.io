@@ -13,7 +13,7 @@ h2 {
 }
 #about-me {
   position: sticky;
-  background-image: url(/assets/dev-bg.png);
+  background-image: url(/Assets/dev-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

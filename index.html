@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="Assets/style.css">
-  <link rel="icon" href="JR-Favicon.png" type='image/x-icon' />
+  <link rel="icon" href="<%= BASE_URL %>favicon-96x96.png" type='image/x-icon' />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -17,10 +17,10 @@
 
 <body class="container-fluid">
   <nav class="row">
-    <div class="col-8">
+    <div class="col-12 col-md-8">
       <h2>JAKE ROZSA</h2>
     </div>
-    <div class="col-4 tag">
+    <div class="col-12 col-md-4 tag">
       <a href="#about-me" class="tags">About Me</a>
       <a href="#skills" class="tags">Skills</a>
       <a href="#portfolio" class="tags">Portfolio</a>
@@ -28,12 +28,12 @@
     </div>
   </nav>
   <aboutme class="row" id="about-me">
-    <div class="col-3 about-me">
+    <div class="col-12 col-md-3 about-me">
       <h2>Jake Rozsa</h2>
       <h5>Full Stack Software Developer</h5>
       <button class="btn projectbtn" href="#portfolio">Projects</button>
     </div>
-    <div class="col-3 offset-6 aboutmetext">
+    <div class="col-12 col-md-3 offset-md-6 aboutmetext">
       <h3 class="text-center">About Me</h3>
       <p class="text-center">
         I am a software developer that recently graduated from Boise Code Works. I have a deep passion for all things
@@ -46,102 +46,103 @@
     <div class="col-12 stitle mt-1">
       <h3>Skills</h3>
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/js.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/html5.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/css.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/dotnet.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/mongodb.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/mysql.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/nodejs.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/scrum.png" alt="">
     </div>
-    <div class="col skills">
+    <div class="col-4 col-md skills">
       <img class="skillimg" src="/Assets/vuejs.png" alt="">
     </div>
   </div>
   <div class="row" id="portfolio">
-    <div class="col-6 port-desctop text-center">
+    <div class="col-12 col-md-6 port-desctop text-center">
       <h3>Keepr</h3>
       <p>Anyone that comes to this website can view keeps(pins), but are limited to what they can do on the site. Once
         registered, you can make vaults(boards) where you can add keeps to that vault. You can also create keeps which
         can be
         private or public. Similar to Pinterest. Front-end is vue.js and back-end is C#.</p>
+      <a href="https://jakerozsa.github.io/keepr/">See Site</a>
     </div>
-    <div class="col-6 portfolio foliotop">
-      <img onclick="location.href='https://jakerozsa.github.io/keepr/';" class="pimg keepr" src="/Assets/keepr.png"
-        alt="">
+    <div class="col-12 col-md-6 portfolio foliotop">
+      <img class="pimg keepr" src="/Assets/keepr.png" alt="">
     </div>
-    <div class="col-6 portfolio folio">
-      <img onclick="location.href='';" class="pimg" src="/Assets/arf.png" alt="">
+    <div class="col-12 col-md-6 portfolio folio">
+      <img class="pimg" src="/Assets/arf.png" alt="">
     </div>
-    <div class="col-6 port-desc rightt text-center">
+    <div class="col-12 col-md-6 port-desc rightt text-center">
       <h3>Arf</h3>
       <p>This is a CRM for a pet day-care. This tool is designed for employees to track dog check-ins/outs and daily
         activity.
         This allows users to auto create an invoice that assists with timely billing processes.
       </p>
+      <a href="https://kanbananas.herokuapp.com">See Site</a>
     </div>
-    <div class="col-6 port-desc leftt text-center">
+    <div class="col-12 col-md-6 port-desc leftt text-center">
       <h3>Inspire</h3>
       <p>
         Inspire is an app that would be a default screen upon opening a new browser. It includes, weather, time, a to-do
         list, and a fun quote of the day.
       </p>
+      <a href="https://jakerozsa.github.io/inspire/">See Site</a>
     </div>
-    <div class="col-6 portfolio folio">
-      <img target="_blank" onclick="window.location.href='https://jakerozsa.github.io/inspire/';" class="pimg"
-        src="/Assets/inspire.png" alt="">
+    <div class="col-12 col-md-6 portfolio folio">
+      <img target="_blank" class="pimg" src="/Assets/inspire.png" alt="">
     </div>
-    <div class="col-6 portfolio folio">
-      <img href="https://kanbananas.herokuapp.com/#/" class="pimg" src="/Assets/kanbanana.png" alt="">
+    <div class="col-12 col-md-6 portfolio folio mb-3">
+      <img class="pimg" src="/Assets/kanbanana.png" alt="">
     </div>
-    <div class="col-6 port-desc rightt text-center">
-      <h3>KanBanana</h3>
+    <div class="col-12 col-md-6 port-desc rightt text-center">
+      <h3> Kanbanana</h3>
       <p>This is a mock-up of a Trello site where a user can plan projects for themselves or their teams. A user can
         login and
         create boards. Boards can have lists added to them that can be commented on. Front-end is vue.js and back-end is
         node.js.</p>
+      <a href="https://kanbananas.herokuapp.com">See Site</a>
     </div>
   </div>
   <footer class="row" id="contact">
-    <div class="col-4 footer">
+    <div class="col-6 col-md-4 footer">
       <h5 class="text-center">
         <i class="fas fa-phone"></i>
         <br>
         208-985-0095
       </h5>
     </div>
-    <div class="col-4 footer">
+    <div class="col-6 col-md-4 footer">
+      <h5 class="text-center">
+        <a href="/Assets/Resume.pdf">
+          <i class="fas fa-file"></i>
+          <br>
+          Resume
+        </a>
+      </h5>
+    </div>
+    <div class="col-12 col-md-4 footer">
       <h5 class="text-center">
         <i class="fas fa-envelope"></i>
         <br>
         jakebrozsa@gmail.com
       </h5>
-    </div>
-    <div class="col-4 footer">
-      <a
-        href="https://photos.google.com/album/AF1QipM6PxYwH7MdauGH60fT4uOTWJJDqAebzU60uAX-/photo/AF1QipNr1GUoC1WDKzMXNYNb97rdU0y5tG_qj3khmLj3">
-        <h5 class="text-center">
-          <i class="fas fa-file"></i>
-          <br>
-          Resume
-        </h5>
-      </a>
     </div>
   </footer>
 
